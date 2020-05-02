@@ -16,8 +16,5 @@ export const  getScreenSize =() =>{
      else if(width < 760){
          return DEVICES.mobile;
      }
-     else{
-         return DEVICES.desktop;
-     }
-
+    
 }
