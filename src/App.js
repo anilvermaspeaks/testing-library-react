@@ -1,13 +1,15 @@
 import React from 'react';
 import './App.css';
-import CustomEffectHook from './custom-effect-hook/custom-effecthook'
+import {WrapperCom} from './context-test/Auth-Context'
+import Auth from './context-test/Auth'
 
 function App() {
   return (
     <div className="App">
  
-    <CustomEffectHook/>
-
+    <WrapperCom>
+<Auth/>
+</WrapperCom>
 
 
     </div>
